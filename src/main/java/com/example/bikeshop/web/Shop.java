@@ -30,7 +30,7 @@ public class Shop extends HttpServlet {
         out.println("<!DOCTYPE html>");
         out.println("<html>");
         out.println("<head>");
-        out.println("<title>Koszyk</title>");
+        out.println("<title>Cart</title>");
         out.println("</head>");
         out.println("<body>");
         out.println("<div>\n" +
@@ -38,7 +38,7 @@ public class Shop extends HttpServlet {
                 "\t\t<div class=\"tabs\" style=\"display: inline-block; border: solid 1px #000; text-decoration: none;\"><a href='/bikeshop/getBikeData.jsp'>Add Bike</a></div>\n" +
                 "\t<div class=\"tabs\" style=\"display: inline-block; border: solid 1px #000; text-decoration: none;\"><a href='/bikeshop/showAllBike.jsp'>Shop</a></div>\n" +
                 "\t<div/>");
-        out.println("<h1>Przyjeto zamowienie</h1>");
+        out.println("<h1>Order accepted</h1>");
         out.println("</body>");
         out.println("</html>");
     }

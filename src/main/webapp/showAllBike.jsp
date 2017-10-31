@@ -18,14 +18,14 @@
 	      java.util.Map<Integer, com.example.bikeshop.domain.Bike> bikes = storage.getShopDb();
           for (java.util.Map.Entry<Integer, com.example.bikeshop.domain.Bike> entry : bikes.entrySet()) {
                             out.println("<form action=\"addtocart\" >\n" +
-                                    "<th>Name</th> <th>Price</th> <th>Dodaj do koszyka</th>\n" +
-                                    "<tr><td>"+entry.getValue().getName()+"</td><td>"+entry.getValue().getPrice()+"</td>\n" +
+                                    "<th>Name</th>"+entry.getValue().getName()+" <th>Price</th> +entry.getValue().getPrice()+<th>Add to cart</th>\n" +
+                                    "\n" +
                                     "<td><input type=\"hidden\" name=\"Name\" value=\""+entry.getValue().getName()
                                     +"\">\n" +
                                     "<input type=\"hidden\" name=\"price\" value=\""+entry.getValue().getPrice()+"\">\n"
 
                                     +
-                                    "<input type=\"submit\" value=\"Dodaj do koszyka\"></td></tr>\n" +
+                                    "<input type=\"submit\" value=\"Add to cart\"></td></tr>\n" +
                                     "</form>");
                         }
       %>

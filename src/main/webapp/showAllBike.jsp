@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div id="topdiv">
-	<div class="tabs"><a href='/bikeshop/shoppingcard'>Shopping Card</div>
+	<div class="tabs"><a href='/bikeshop/shoppingcart'>Cart</div>
 	<div class="tabs"><a href='/bikeshop/getBikeData.jsp'>Add Bike</div>
 	<div class="tabs"><a href='/bikeshop/shop'>Shop</a></div>
 	<div/>

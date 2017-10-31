@@ -54,7 +54,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>bike-shop</finalName>
+		<finalName>bikeshop</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -89,5 +89,5 @@
 		</plugins>
 	</build>
 
-	<artifactId>bike-shop</artifactId>
+	<artifactId>bikeshop</artifactId>
 </project>

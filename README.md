@@ -1,2 +1,3 @@
 # Technologie-Java-Enterprise
-Bike shop app
+1) Servlet bike shop
+2) REST bike database
